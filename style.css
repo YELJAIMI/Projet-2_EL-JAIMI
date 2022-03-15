@@ -42,7 +42,7 @@ nav a{
     border-bottom: transparent;
 }
 
-nav a:hover{
+nav a :hover{
     border-top-color: #0065fc;
 }
 
@@ -69,12 +69,11 @@ nav img {
 .sub-nav a {
     flex-basis: 50%;
     text-align: center;
-    border-bottom: 2px solid transparent;
 }
 
 .sub-nav a:hover{
     border-bottom-color: #0065fc;
-    border-top: transparent;
+    border-top: 2px solid #0065fc;
     color: #0065fc;
 }
 

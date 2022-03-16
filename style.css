@@ -326,7 +326,7 @@ nav img {
 .Activités-list{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     gap: 1rem;
     cursor: pointer;
 }
@@ -353,7 +353,7 @@ nav img {
 
 .large-port{
     grid-column: 1;
-    grid-row: 1/4;
+    grid-row: 1/5;
     background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
     height: 30rem;
     border-radius: 1rem;
@@ -362,7 +362,7 @@ nav img {
 
 .large-calanques {
     grid-column: 3;
-    grid-row: 1/4;
+    grid-row: 1/5;
     background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
     border-radius: 1rem;
     box-shadow: 0 0 20px #0000002e;
@@ -378,7 +378,7 @@ nav img {
 
 .medium-longchamp {
     grid-column: 4;
-    grid-row: 2/4;
+    grid-row: 3/5;
     background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
     border-radius: 1rem;
     box-shadow: 0 0 20px #0000002e;
@@ -386,7 +386,7 @@ nav img {
 
 .small-frioul {
     grid-column: 2;
-    grid-row: 3/4;
+    grid-row: 3/5;
     background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
     border-radius: 1rem;
     box-shadow: 0 0 20px #0000002e;
@@ -394,7 +394,7 @@ nav img {
 
 .small-garde {
     grid-column: 4;
-    grid-row: 1/2;
+    grid-row: 1/3;
     background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
     border-radius: 1rem;
     box-shadow: 0 0 20px #0000002e;

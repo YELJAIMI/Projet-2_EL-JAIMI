@@ -416,6 +416,7 @@ nav img {
     }
     .Activités-list{
         flex-direction: column;
+        grid-template-rows: repeat(3, 1fr);
     }
 
     .contents .fas.fa-search{
